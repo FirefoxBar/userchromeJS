@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Colorful Tabs",
+		"version": "0.1",
+		"installURL": "https://github.com/FirefoxBar/userchromeJS/raw/master/Colorful_Tabs/ColorfulTabs.uc.js",
+		"homepageURL": "https://github.com/FirefoxBar/userchromeJS/tree/master/Colorful_Tabs",
+		"description": "根据网站图标自动给标签页上相应颜色。"
+	}
+]
