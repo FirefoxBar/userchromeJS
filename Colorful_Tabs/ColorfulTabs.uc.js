@@ -80,6 +80,7 @@ location.href === 'chrome://browser/content/browser.xul' && (function(){
 #TabsToolbar {
 background: transparent !important;
 margin-bottom: 0 !important;
+margin-top: -1px !important;
 }
 #TabsToolbar .tab-background{
 margin: 0 !important;
