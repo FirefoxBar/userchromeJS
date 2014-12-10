@@ -5,5 +5,12 @@
 		"installURL": "https://github.com/FirefoxBar/userchromeJS/raw/master/Colorful_Tabs/ColorfulTabs.uc.js",
 		"homepageURL": "https://github.com/FirefoxBar/userchromeJS/tree/master/Colorful_Tabs",
 		"description": "根据网站图标自动给标签页上相应颜色。"
+	},
+	{
+		"name": "163 Music Lrc Show",
+		"version": "0.1",
+		"installURL": "https://github.com/FirefoxBar/userchromeJS/raw/master/163_Music_Lrc_Show/163MusicLrcShow.uc.js",
+		"homepageURL": "https://github.com/FirefoxBar/userchromeJS/tree/master/163_Music_Lrc_Show",
+		"description": "网易云音乐歌词秀。"
 	}
 ]
