@@ -2,6 +2,7 @@
 // @name           163 Music Irc Show
 // @author         Palatoo Young
 // @include        main
+// @charset        utf-8
 // @description    网易歌词秀
 // @version        0.1
 // ==/UserScript==
