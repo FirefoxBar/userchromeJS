@@ -4,7 +4,7 @@
 // @include        main
 // @charset        utf-8
 // @description    网易歌词秀
-// @version        0.1
+// @version        0.2
 // ==/UserScript==
 
 
@@ -318,7 +318,7 @@ location.href === "chrome://browser/content/browser.xul" && (function(conf){
         var dom = {
             thide : playbar.querySelector('.f-thide'),
             time : playbar.querySelector('.time'),
-            flag : playbar.querySelector('.j-flag')
+            flag : playbar.querySelector('.words')
         };  
         
         var _ = {
@@ -375,8 +375,9 @@ location.href === "chrome://browser/content/browser.xul" && (function(conf){
         
         _.mutationObserver(dom.flag,function (mutations) {
             mutations.forEach(function (mutation) {
-                floatIrc.textContent = name = mutation.addedNodes[0].text;
-                _.getIrc(mutation.addedNodes[0].search.substr(4));
+                var addedNode = mutation.addedNodes[1];
+                floatIrc.textContent = name = addedNode.innerHTML;
+                _.getIrc(addedNode.search.substr(4));
             });
         });
         

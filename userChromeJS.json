@@ -8,7 +8,7 @@
 	},
 	{
 		"name": "163 Music Lrc Show",
-		"version": "0.1",
+		"version": "0.2",
 		"installURL": "https://github.com/FirefoxBar/userchromeJS/raw/master/163_Music_Lrc_Show/163MusicLrcShow.uc.js",
 		"homepageURL": "https://github.com/FirefoxBar/userchromeJS/tree/master/163_Music_Lrc_Show",
 		"description": "网易云音乐歌词秀。"
